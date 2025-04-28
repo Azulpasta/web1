@@ -1,4 +1,11 @@
 p.border{
+    padding: 70px;
+    border-style: solid;
+    border-color: aquamarine;
+    border-width: 5px;
+}
 
-    border-style: dotted;
+p.margin{
+    margin: 100px;
+
 }

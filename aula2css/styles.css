@@ -1,0 +1,17 @@
+*{
+    color: blue;
+
+}
+.p1{
+    text-align: center;
+}
+.p2{
+    text-align: left;
+}
+.p3{
+    text-align: right;
+}
+
+#fonte{
+    font-size: 24px;
+}
