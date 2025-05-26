@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audios HTML</title>
+    <style>
+        * {
+            margin: 10px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 20px;
+        }
+        audio, video {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 8px;
+        }
+        iframe{
+            width: 100%;
+            max-width: 700px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>aula sobre audios no HTML</h1>
+
+<ul>
+<li>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="audios - cópia/Cartoon Metal Thunk.mp3" type="audio/mp3">
+    </audio>
+</li>
+
+<li>
+    <video width="700" controls autoplay loop>
+        <source src="videos/video1.mp4" type="video/mp4">
+    </video>
+</li>
+<li>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_JmG8GJR9wo?si=JajzHRG2nMqhNfDV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>att</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label id="nome">nome</label>
+            <input type="text">
+        </div>
+        <div id="idade">
+            <label>idade</label>
+            <input type="number">
+        </div>   
+        <div>
+            <button id="enviar">Enviar</button>
+        </div> 
+        <div>
+            <p id="print"></p>
+        </div>
+            
+    </form>
+    <script>
+
+        const pessoa = {
+            nome: '',
+            idade: 0
+        }
+         
+        document.getElementById('print').innerHTML = `Nome: ${pessoa.nome} Idade: ${pessoa.idade}`
+        function enviar() {
+            pessoa.nome = document.querySelector('input[type="text"]').value
+            pessoa.idade = document.querySelector('input[type="number"]').value
+            document.getElementById('print').innerHTML = `Nome: ${pessoa.nome} Idade: ${pessoa.idade}`
+        }
+
+    </script>
+</body>
+</html>

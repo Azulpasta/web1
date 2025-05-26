@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora Simples</h1>
+
+    <form id="calc">
+        <div>
+            <label for="valor1">
+                Valor 1:
+                <input type="number" id="valor1" placeholder="Digite o primeiro valor">
+            </label>
+        </div>
+        <div>
+            <label for="valor2">
+                Valor 2:
+                <input type="number" id="valor2" placeholder="Digite o segundo valor">
+            </label>
+        </div>
+        <div>
+            <input type="button" value="Calcular" onclick="calcular()">
+        </div>
+
+        <div>
+            <h2>Resultados</h2>
+            <label for="soma">
+                Soma:
+                <input type="text" id="soma" value="0" readonly>
+                
+            </label>
+        </div>
+
+
+    </form>
+
+</body>
+</html>

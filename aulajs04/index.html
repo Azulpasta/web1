@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <h1>Formulario de boas-vindas</h1>
+
+    <form id="formsaudacao">
+
+        <div>
+            <label for="nome">
+                Nome:
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+            </label>
+        </div>
+        <div>
+            <label for="idade">
+                Idade:
+                <input type="number" id="idade" name="idade" placeholder="Digite sua idade" min="0" max="120">
+            </label>
+        </div>
+
+        <input type="button" value="Enviar" id="btnEnviar" onclick="saudar()">
+
+    </form>
+
+    <p id="mensagem"></p>
+
+
+</body>
+</html>
